@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/ui": "^2.18.5",
+    "nuxt": "^3.12.4"
+  },
+  "dependencies": {
+    "@octokit/core": "^6.1.2",
+    "@octokit/rest": "^21.0.2",
+    "zod": "^3.23.8"
+  }
+}
